@@ -39,3 +39,21 @@
 
 ---
 本项目用于通信方向的课程学习与实验练习。
+
+## 仿真结果
+### AM 调制解调效果
+<img width="1760" height="809" alt="QQ_1777389533412" src="https://github.com/user-attachments/assets/11eb1cfe-2c41-4ef5-999e-deacbfae74a1" />
+
+
+
+### DSB 调制解调过程
+<img width="1768" height="801" alt="QQ_1777389508665" src="https://github.com/user-attachments/assets/94851790-2af1-465a-8965-8976fd4c995e" />
+
+### SSB 调制解调过程
+<img width="1750" height="801" alt="image" src="https://github.com/user-attachments/assets/96f78d96-ee80-44d7-89b0-7facf3a07e57" />
+
+### FM 调制解调过程
+<img width="1770" height="798" alt="image" src="https://github.com/user-attachments/assets/d687839e-3b53-44a2-bfc8-393c14a5907c" />
+
+### 不同信噪比下的调制性能对比
+<img width="1774" height="822" alt="image" src="https://github.com/user-attachments/assets/6360faee-1434-4cab-8965-c1791535df80" />
