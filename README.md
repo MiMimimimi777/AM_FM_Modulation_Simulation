@@ -4,6 +4,7 @@
 本项目为通信原理入门实验，基于 MATLAB 实现模拟调制解调的完整仿真，
 包含 **AM、DSB、SSB、FM** 四种经典调制方式，学习通信系统最底层的信号调制、传输、加噪、解调和性能分析过程。
 
+本项目引入 K - 近邻（KNN）机器学习算法，实现了对 AM/DSB/SSB/FM 四种调制方式的盲识别。系统无需预先获知信号的调制类型，仅通过时域和频域特征即可实现最好 90% 以上的识别准确率，为通信系统的智能化信号处理提供了轻量化解决方案。
 ## 🎯 实现内容
 1. 生成一段基础低频信号（简单余弦波形）
 2. 实现四种模拟调制：
@@ -42,18 +43,20 @@
 
 ## 仿真结果
 ### AM 调制解调效果
-<img width="1760" height="809" alt="QQ_1777389533412" src="https://github.com/user-attachments/assets/11eb1cfe-2c41-4ef5-999e-deacbfae74a1" />
-
 
 
 ### DSB 调制解调过程
-<img width="1768" height="801" alt="QQ_1777389508665" src="https://github.com/user-attachments/assets/94851790-2af1-465a-8965-8976fd4c995e" />
+
 
 ### SSB 调制解调过程
-<img width="1750" height="801" alt="image" src="https://github.com/user-attachments/assets/96f78d96-ee80-44d7-89b0-7facf3a07e57" />
+<img width="1553" height="745" alt="image" src="https://github.com/user-attachments/assets/7183b60e-d722-4035-b9ef-e355bf191b49" />
 
 ### FM 调制解调过程
-<img width="1770" height="798" alt="image" src="https://github.com/user-attachments/assets/d687839e-3b53-44a2-bfc8-393c14a5907c" />
+<img width="1541" height="729" alt="image" src="https://github.com/user-attachments/assets/dd6a4925-5727-449b-ae25-d4da58f51f94" />
 
 ### 不同信噪比下的调制性能对比
-<img width="1774" height="822" alt="image" src="https://github.com/user-attachments/assets/6360faee-1434-4cab-8965-c1791535df80" />
+<img width="1573" height="751" alt="image" src="https://github.com/user-attachments/assets/b789e93a-2205-4111-ab7d-673feb3dad42" />
+
+### AI的盲识别
+<img width="1605" height="759" alt="image" src="https://github.com/user-attachments/assets/0823e36d-0c0a-469e-9679-e349154ea67b" />
+<img width="409" height="147" alt="image" src="https://github.com/user-attachments/assets/fb2358e0-793b-40f7-9734-10ea8a8923a4" />
